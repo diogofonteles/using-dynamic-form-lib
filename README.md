@@ -1,4 +1,8 @@
-# ProjectFormTest
+# UsingDynamicFormLib
+
+This is a project to demonstrate the use of the dynamic-form library that is published in npm at the following address:
+
+https://www.npmjs.com/package/dynamic-form-diogofonteles
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
@@ -6,22 +10,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Installing the library package
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To install the library package:
 
-## Build
+Run `npm i dynamic-form-diogofonteles`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Install the Angular Material library:
 
-## Running unit tests
+Run `ng add @ angular / material`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Then, in app.module.ts include the modules in ʻimports`:
 
-## Running end-to-end tests
+DynamicFormModule,
+BrowserAnimationsModule,
+ReactiveFormsModule
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Implementation details
 
-## Further help
+Two example forms were implemented, one using the component directly and the other using the component as a directive.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
