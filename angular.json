@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "project-form-test"
+    }
+  },
+  "defaultProject": "project-form-test",
+  "cli": {
+    "analytics": "d3fc10f4-2a95-475e-9249-36390743f264"
+  }
 }
